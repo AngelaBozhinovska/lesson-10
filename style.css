@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-div-1 p {
+    color: #ff0000;
+}
+
+.custom-div-1 > p {
+    color: #ffff00;
+}
+
+.custom-div-1 + p {
+    color: #00ff00;
+}
+
+.custom-div-1 ~ p {
+    color: #000ff0;
+}
+
+.custom-div-1 > p:first-child {
+    color: #ff00ff;
+}
+
+.custom-div-1:before {
+    content: "";
+}
+
+.custom-div-1:after {
+    content: "";
+}
